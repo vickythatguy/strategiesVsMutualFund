@@ -18,6 +18,9 @@ This project evaluates nine widely recognized technical indicator-based trading 
   - Volume Weighted Moving Average (VWMA)
 - Performance metrics: Average return, Sharpe ratio, cumulative return, win rate, and risk.
 - Backtesting for historical data from 2014–2023 using Python libraries like `pandas` and `matplotlib`.
+## Data Sources
+- Stock data: Yahoo Finance
+- Mutual fund data: TD Bank NASDAQ Index Mutual Fund reports.
 
 ## Methodology
 1. **Data Sourcing**:
@@ -29,12 +32,14 @@ This project evaluates nine widely recognized technical indicator-based trading 
    - Exploratory Data Analysis (EDA).
    - Strategy implementation and backtesting.
 
+## Limitations
+- Transaction costs not included in the backtesting.
+- Results based on historical data; future performance may vary.
+
 ## Results
 - The **EMA strategy** achieved the highest average return of 23.42%, outperforming mutual funds in most years.
 - Trend-following strategies were effective in bullish markets.
 - Mean-reverting strategies provided stability during market consolidations.
 
-## Getting Started
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/vickythatguy/strategiesVsMutualFund.git
+
+
