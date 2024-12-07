@@ -36,6 +36,22 @@ This project evaluates nine widely recognized technical indicator-based trading 
 - Transaction costs not included in the backtesting.
 - Results based on historical data; future performance may vary.
 
+## Visualization
+Below are sample visualizations generated during the project:
+
+1. **Average Return**
+   ![Average Return](images/Average_return.png)
+
+2. **Cumulative Returns Comparison**
+   ![Cumulative Returns Comparison](images/cumulative_returns_comparison.png)
+
+3. **Number of Transactions**
+   ![Number of Transactions](images/number_of_transactions.png)
+
+4. **Risk Level Comparison**
+   ![Risk Level Comparison](images/risk_level_comparison.png)
+
+
 ## Results
 - The **EMA strategy** achieved the highest average return of 23.42%, outperforming mutual funds in most years.
 - Trend-following strategies were effective in bullish markets.
